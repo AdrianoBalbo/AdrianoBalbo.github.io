@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 15vh;
+    background-color: rgb(255, 0, 242);
+}
+
+main{
+    min-height: 75vh;
+    background-color: rgb(61, 61, 61);
+    color: whitesmoke;
+}
+
+footer{
+    height: 10vh;
+    background-color: red;;
+}
+
+nav{
+    height: 100%;
+}
+
+.webExamples{
+    filter: grayscale();
+    font-family: 'Erica One', cursive;
+}
+
+.webExamples:hover{
+    filter: grayscale(0);
+    transition: 0.3s;
+}
